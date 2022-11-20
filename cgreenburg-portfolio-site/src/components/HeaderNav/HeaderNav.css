@@ -1,0 +1,14 @@
+@import "../../utils/colors.css";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}

@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 function HeaderNav() {
   return (
     <header>
-      <h1>Candace Greenburg - Sculptor & Local Artist</h1>
-      <h3>Tucson, AZ</h3>
+      <div className="headerTitle">
+        <h1>Candace Greenburg - Sculptor & Local Artist</h1>
+        <h3>Tucson, AZ</h3>
+      </div>
       <div className="navBar">
         <Link to="/">
           <button className="navBtn">About</button>

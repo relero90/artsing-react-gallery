@@ -1,0 +1,76 @@
+.contactFormDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* color: var(--light1); */
+  background-color: white;
+  border-radius: 50px;
+  width: 70%;
+  margin: 2rem;
+  z-index: 1;
+}
+
+.contactFormDiv h3 {
+  font-size: 1.8rem;
+  margin: 1rem;
+}
+
+.contactFormDiv h6 {
+  font-size: 1.3rem;
+}
+
+.contactFormDiv h6 a {
+  /* color: var(--light1); */
+  text-decoration: none;
+}
+.contactFormDiv h6 a:hover {
+  /* color: var(--accent); */
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0.5rem;
+  justify-content: center;
+  /* align-items: flex-start; */
+}
+
+.feedbackText {
+  text-align: end;
+  font-size: 0.8rem;
+  margin: 0;
+  color: var(--warning);
+}
+
+.messageSent {
+  text-align: center;
+  color: var(--success);
+  font-size: 1.5rem;
+}
+.messageProblem {
+  text-align: center;
+  color: var(--warning);
+  font-size: 1.5rem;
+}
+
+.custom-btn {
+  align-self: center;
+  /* background-color: var(--accent);
+  color: var(--light1); */
+  font-size: 1.3rem;
+  margin: 1rem;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 5px;
+}

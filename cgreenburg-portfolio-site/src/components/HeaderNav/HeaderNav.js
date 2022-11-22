@@ -6,8 +6,8 @@ function HeaderNav() {
   return (
     <header>
       <div className="headerTitle">
-        <h1>Candace Greenburg - Sculptor & Local Artist</h1>
-        <h3>Tucson, AZ</h3>
+        <h1 className="title">Candace Greenburg Designs</h1>
+        <h3>Local Artist - Tucson, AZ</h3>
       </div>
       <div className="navBar">
         <Link to="/">

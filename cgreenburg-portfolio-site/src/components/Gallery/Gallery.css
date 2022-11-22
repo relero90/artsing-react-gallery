@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: white;
   border: solid black 2px;
   border-radius: 5px;
   width: 50rem;

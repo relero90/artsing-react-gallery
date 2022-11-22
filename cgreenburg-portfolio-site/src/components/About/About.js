@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 
 function About() {
-  return <div>About Candace Placeholder</div>;
+  return <div className="placeholder">About Candace Placeholder</div>;
 }
 
 export default About;

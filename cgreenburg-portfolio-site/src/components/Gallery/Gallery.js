@@ -37,8 +37,8 @@ function Gallery() {
 
       <div className="projectCard">
         {/* <img
-          className="card-img-top projectImg"
-          src={project.imagePath}
+          className="projectImg"
+          src={project.image}
           alt={project.alt}
         ></img> */}
         <div className="cardTextDiv">

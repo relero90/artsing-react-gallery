@@ -1,0 +1,10 @@
+.footerDiv {
+  font-size: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerLink {
+  text-decoration: none;
+}

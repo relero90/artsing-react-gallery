@@ -1,12 +1,9 @@
-.placeholder {
-  background-color: white;
-  padding: 1rem;
-}
+@import "../../utils/colors.css";
 
 .aboutContainer {
   width: 90vw;
   border-radius: 5px;
-  background-color: white;
+  background-color: var(--color3);
   display: flex;
   align-items: center;
 }
@@ -20,4 +17,5 @@
 .aboutText {
   margin: 1rem;
   font-size: 2rem;
+  color: var(--color1);
 }

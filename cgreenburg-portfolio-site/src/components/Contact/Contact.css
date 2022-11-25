@@ -1,3 +1,5 @@
+@import "../../utils/colors.css";
+
 .contactFormDiv {
   display: flex;
   flex-direction: column;

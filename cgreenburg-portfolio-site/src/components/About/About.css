@@ -2,3 +2,22 @@
   background-color: white;
   padding: 1rem;
 }
+
+.aboutContainer {
+  width: 90vw;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.aboutImg {
+  width: 30vw;
+  height: auto;
+  border-radius: 5px 0 0 5px;
+}
+
+.aboutText {
+  margin: 1rem;
+  font-size: 2rem;
+}

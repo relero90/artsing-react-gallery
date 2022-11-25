@@ -35,11 +35,13 @@ function Contact() {
 
   return (
     <div className="contactFormDiv">
-      <h3>Contact Me</h3>
+      <h3 className="contactFormTitle">Contact Me</h3>
       <h6>
-        <a href="mailto:artsing8@gmail.com">artsing8@gmail.com</a>
+        <a href="mailto:artsing8@gmail.com" className="contactEmail">
+          artsing8@gmail.com
+        </a>
       </h6>
-      <h6>(520) 850-6251</h6>
+      <h6 className="contactPhone">(520) 850-6251</h6>
       <form className="contactForm">
         <div className="formGroup">
           <label htmlFor="exampleFormControlInput1">Your Name</label>

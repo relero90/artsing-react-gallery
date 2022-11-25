@@ -4,29 +4,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* color: var(--light1); */
-  background-color: white;
+  color: var(--color1);
+  background-color: var(--color3);
   border-radius: 5px;
   width: 70%;
   margin: 2rem;
   z-index: 1;
 }
 
-.contactFormDiv h3 {
+.contactFormTitle {
   font-size: 1.8rem;
   margin: 1rem;
 }
 
-.contactFormDiv h6 {
+.contactEmail {
   font-size: 1.3rem;
-}
-
-.contactFormDiv h6 a {
-  /* color: var(--light1); */
+  margin: 0.5rem;
+  color: var(--color5);
   text-decoration: none;
 }
-.contactFormDiv h6 a:hover {
-  /* color: var(--accent); */
+
+.contactPhone {
+  font-size: 1.3rem;
+  margin: 0.5rem;
 }
 
 .contactForm {
@@ -48,31 +48,36 @@
   /* align-items: flex-start; */
 }
 
-.feedbackText {
-  text-align: end;
-  font-size: 0.8rem;
-  margin: 0;
-  color: var(--warning);
+.formGroup label {
+  margin-bottom: 0.2rem;
 }
 
-.messageSent {
-  text-align: center;
-  color: var(--success);
-  font-size: 1.5rem;
+.formGroup input {
+  /* color: var(--color5); */
+  padding: 0.2rem;
+  border: 1px solid var(--color1);
 }
-.messageProblem {
-  text-align: center;
-  color: var(--warning);
-  font-size: 1.5rem;
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border: 3px solid var(--color1);
+  border-radius: 5px;
 }
 
 .custom-btn {
   align-self: center;
-  /* background-color: var(--accent);
-  color: var(--light1); */
+  background-color: var(--color1);
+  color: var(--color3);
   font-size: 1.3rem;
   margin: 1rem;
   padding: 10px;
   width: fit-content;
+  border: 2px solid var(--color1);
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-btn:hover {
+  color: var(--color5);
 }

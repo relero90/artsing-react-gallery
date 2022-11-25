@@ -6,7 +6,7 @@ function HeaderNav() {
   return (
     <header>
       <div className="headerTitle">
-        <h1 className="title">Candace Greenburg Designs</h1>
+        <h1 className="title">Candace Greenburg</h1>
         <h3>Local Artist - Tucson, AZ</h3>
       </div>
       <div className="navBar">

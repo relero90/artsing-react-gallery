@@ -4,8 +4,43 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
-  border: solid black 2px;
+  background-color: var(--color3);
+  /* border: solid var(--color1) 2px; */
   border-radius: 5px;
   width: 50rem;
+}
+
+.galleryBtn {
+  margin: 1rem;
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  color: var(--color1);
+  cursor: pointer;
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+}
+
+.projectImg {
+  margin: 1rem;
+  width: 40vw;
+  height: auto;
+}
+
+.projectTextDiv {
+  margin: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title,
+.projectDescription {
+  text-align: center;
+  color: var(--color1);
 }

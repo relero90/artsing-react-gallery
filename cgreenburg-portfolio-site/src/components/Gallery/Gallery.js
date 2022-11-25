@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./Gallery.css";
 
+import filler from "./images/artsy-filler.jpeg";
+
 import projects from "./project-data";
 
 function Gallery() {
@@ -36,11 +38,11 @@ function Gallery() {
       </button>
 
       <div className="projectCard">
-        {/* <img
+        <img
           className="projectImg"
-          src={project.image}
-          alt={project.alt}
-        ></img> */}
+          src={filler}
+          alt="artsy fartsy filler"
+        ></img>
         <div className="cardTextDiv">
           <h5 className="title">{project.title}</h5>
           <p className="projectDescription">{project.description}</p>

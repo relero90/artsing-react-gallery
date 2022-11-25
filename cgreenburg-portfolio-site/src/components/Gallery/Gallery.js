@@ -43,7 +43,7 @@ function Gallery() {
           src={filler}
           alt="artsy fartsy filler"
         ></img>
-        <div className="cardTextDiv">
+        <div className="projectTextDiv">
           <h5 className="title">{project.title}</h5>
           <p className="projectDescription">{project.description}</p>
         </div>
